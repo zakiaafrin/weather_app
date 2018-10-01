@@ -1,27 +1,27 @@
 body{
-    background-color: #16082f;        /*change 1*/
+    background-image: url('../img/weather.jpg'); /*change 1*/
+    background-size: cover;        /*change 2*/
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: center;             /*change 3*/
 }
-body *{
-    margin-bottom: 5vh;
-    font-family: Arial,Helvetica,sans-serif; /*change 2*/
-    color: #fff38e;                  /*change 3*/
 
-}
-h1{
-    font-style: italic;               /*change 4*/ 
-    padding: 2vh;                     /*change 5*/
-}
 input[type=text] {
-    background-color: #a7043c;     /*change 6*/
-    border-radius: 10px;             /*change 7*/
-    text-align: center;              /*change 8*/
+    border-radius: 20%;             /*change 4*/
+    padding: 5px;                   
+    outline: none;
+    text-align: center;             /*change 5*/
 }
 button.convert{
-    background: #a7043c;          /*change 9*/
-    border-radius: 25px;            /*change 10*/
-    padding: 5px;                   /*change 11*/
-    border-style: double;           /*change 12*/
+    background: black;          /*change 6*/
+    border-radius: 20%;            /*change 7*/    
+    border-style: double;           /*change 8*/
+    outline: none;                  /*change 9*/
+    color: aliceblue;             /*change 10*/
 }
+
+.icon {
+    min-width: 250px;
+    max-width: 250px;
+  }
+  
